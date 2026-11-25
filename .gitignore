@@ -1,0 +1,24 @@
+# Next.js
+.next/
+out/
+**/node_modules/
+**/.next/
+frontend/.env*.local
+.env*.local
+
+# Production build
+dist/
+build/
+
+# Python / Backend
+backend/venv/
+backend/env/
+backend/.pytest_cache/
+backend/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS files
+.DS_Store
+**/.DS_Store
+Thumbs.db
